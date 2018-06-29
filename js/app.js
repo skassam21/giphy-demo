@@ -4,6 +4,7 @@ const searchForm = () => {
     const searchQueryElem = document.querySelector('.search-input');
     const searchQuery = searchQueryElem.value;
 
+    
     if (!searchQuery) {
         searchQueryElem.classList.add('is-invalid');
     } else {
